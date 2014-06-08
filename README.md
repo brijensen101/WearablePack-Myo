@@ -4,9 +4,9 @@ WearablePack-Myo
 
 ## Overview
 ###Description:
-During surgery a Dr. will use a Myo controller and a Salesforce.com intergration to view images (X-Rays), order an additonal post op x-ray,  notifly the post op team about the end of surgery, and send notifications to others.
+Salesforce and Thalmic Labs have come together to create a touchless surgery device. During surgery a Dr. will use a Myo controller and a Salesforce.com intergration to view images (X-Rays), order an additonal post op x-rays, notifly the post op team about the end of surgery, and send notifications to others.
 ###Architecture:
-####Thalmic Laps - Myo (The Controller) https://www.thalmic.com/en/myo/
+####Thalmic Labs - Myo (The Controller) https://www.thalmic.com/en/myo/
 Value of the Myo - This wearable device uses a bluetooth connection that will allow the user to control the screen.  The specific value for the surgeon will be that because it is touchless it preserves the clean environment needed for surgery.
 ####Unity 3D (The UI Environment) http://unity3d.com/
 Unity 3D is a powerful gaming engine that provide an 3D environment in which to create an application.  The Myo SDK also comes with a plug in for Unity for rapid 3D interface development.
