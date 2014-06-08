@@ -11,7 +11,7 @@ Value of the Myo - This wearable device uses a bluetooth connection that will al
 ####Unity 3D (The UI Environment) http://unity3d.com/
 Unity 3D is a powerful gaming engine that provide an 3D environment in which to create an application.  The Myo SDK also comes with a plug in for Unity for rapid 3D interface development.
 Unity Plugins/Packages
-- ####Myo Packages
+- **Myo Packages**
 This is a Unity Package that can be loaded to the Unity project.  The package has all the scripts needed to use the Myo device in scenes.  There is a Myo prefab that is added to the scene that provides the connection to Unity and the Myo.  With in this prefab you can access the gyroscope and accelerometer, and the five preset gestures.
 
 ####Playmaker http://www.hutonggames.com/
