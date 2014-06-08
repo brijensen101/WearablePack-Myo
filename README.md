@@ -18,11 +18,11 @@ This is a plugin is a visual scripter.  This provides the ability to quickly pro
 ####Coherent UI
 This is a plugin for Unity3d that provides a browser access with in your scenes.  This plugin also provides a two way communication between a browser and the Unity3d scene via Javascript
 ###Research
-http://www.bbc.com/news/health-18238356
-http://www.siemens.com/innovation/en/news/2012/e_inno_1206_1.htm
-http://research.microsoft.com/en-us/projects/touchlessinteractionmedical/
-http://research.microsoft.com/apps/video/default.aspx?id=174856)
-http://cacm.acm.org/magazines/2014/1/170869-touchless-interaction-in-surgery/fulltext
+- http://www.bbc.com/news/health-18238356
+- http://www.siemens.com/innovation/en/news/2012/e_inno_1206_1.htm
+- http://research.microsoft.com/en-us/projects/touchlessinteractionmedical/
+- http://research.microsoft.com/apps/video/default.aspx?id=174856)
+- http://cacm.acm.org/magazines/2014/1/170869-touchless-interaction-in-surgery/fulltext
 ####The Myo Advantage Over LeapMotion and Kenect
 In the research I have done I found an interesting advantage the Myo has over the Kenect and LeapMotion.  Both the Kenect and LeapMotion use a line-of-sight camera.  This requires the surgeon to work within a specific “viewable” area.  Because the Myo does not use a line-of-sight camera for its interactions reference, and thus the surgeon is not restricted in where a gesture is performed. 
 
