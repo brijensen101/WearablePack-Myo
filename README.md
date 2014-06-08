@@ -2,9 +2,10 @@ WearablePack-Myo
 ================
 ![Flow Chart](https://cloud.githubusercontent.com/assets/6456976/3211270/82bf990c-ef0c-11e3-88f0-d9a2f4834aad.png)
 
-Overview
-Description: During surgery a Dr. will use a Myo controller and a Salesforce.com intergration to view images (X-Rays), order an additonal post op x-ray,  notifly the post op team about the end of surgery, and send notifications to others.
-Architecture:
+## Overview
+###Description:
+During surgery a Dr. will use a Myo controller and a Salesforce.com intergration to view images (X-Rays), order an additonal post op x-ray,  notifly the post op team about the end of surgery, and send notifications to others.
+###Architecture:
 Thalmic Laps - Myo (The Controller)
 Value of the Myo - This wearable device uses a bluetooth connection that will allow the user to control the screen.  The specific value for the surgeon will be that because it is touchless it preserves the clean environment needed for surgery.
 
