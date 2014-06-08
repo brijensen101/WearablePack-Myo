@@ -23,6 +23,7 @@ This is a plugin for Unity3d that provides a browser access with in your scenes.
 - http://research.microsoft.com/en-us/projects/touchlessinteractionmedical/
 - http://research.microsoft.com/apps/video/default.aspx?id=174856)
 - http://cacm.acm.org/magazines/2014/1/170869-touchless-interaction-in-surgery/fulltext
+
 ####The Myo Advantage Over LeapMotion and Kenect
 In the research I have done I found an interesting advantage the Myo has over the Kenect and LeapMotion.  Both the Kenect and LeapMotion use a line-of-sight camera.  This requires the surgeon to work within a specific “viewable” area.  Because the Myo does not use a line-of-sight camera for its interactions reference, and thus the surgeon is not restricted in where a gesture is performed. 
 
