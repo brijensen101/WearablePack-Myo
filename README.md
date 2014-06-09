@@ -26,10 +26,10 @@ There is two-way communication between Myo and the Unity3D connected app as well
 ![Flow Chart](https://cloud.githubusercontent.com/assets/2077602/3217042/32ad59c0-efdb-11e3-8b08-d005d24ae079.png)
 
 
--  Myo to Unity3D integration 
+###  Myo <=> Unity3D integration:
 The Myo SDK includes a Unity Package that provides the connection between Unity3D and the Myo device.  Within this package are the components required to access the gyroscope and accelerometer as well as the five preset gestures.  This package is provided as part of the Myo Alpha 6 SDK.
 
--  Unity3D to Salesforce.com Integration 
+###  Unity3D <=> Salesforce.com Integration:
 This project illustrates three ways in which Salesforce.com and Unity3D can be integrated. Lets cover each one briefly:
 
    1. **Data Integration using the REST API and OAuth**
@@ -43,7 +43,6 @@ This project illustrates three ways in which Salesforce.com and Unity3D can be i
 
 ## Integration deep dive
 The first example here is establishing a REST call (refer to the salesforce.cs file in the Unity3D folder uner src: src/Assets/scripts/salesforce.cs):
-'''
 
       public void query(string q){
             string url = instanceUrl + "/services/data/" + version 
@@ -59,10 +58,8 @@ The first example here is establishing a REST call (refer to the salesforce.cs f
 
 			request(www);
 	 }
-'''
 
 Here is an example of the client code that uses it (refer to the SalesforceClient.cs file in the same folder):
-'''
 
     //init object
     sf = gameObject.AddComponent<Salesforce>();
@@ -78,20 +75,17 @@ Here is an example of the client code that uses it (refer to the SalesforceClien
     sf.query("SELECT Id, Surgery_Type__c FROM Case WHERE ContactId = '" +
                      patientID + "' ORDER BY Surgery_Date__c LIMIT 1");
 
-'''
 
 Now, lets look at the Visualforce and Apex remote method integration approach. Firstly, this is the code that binds a method in Unity3D (C#) to a javascrip method (refer to SFDCcouiBinder.cs in the same folder):
-'''
+
 	// calls a VF Page's javascript wrapper method, which in turn performs 
     // a saleesfroce remote action	
 	public void orderPostOpXray(string procedureID){
        m_View.View.TriggerEvent ("orderPostOpXray", procedureID); 
 	}
 
-'''
 OrderPostOpXray is an vent that is captures in javascript within the Visualforce page. These events from within Unity3D are captured by including a Coherent UI javascriptt library in the Visualforce page:
 
-'''
 
 	<apex:page controller="SFDCcouiBinderController" sidebar="false" 
      showHeader="false" standardStylesheets="false" docType="html-5.0">
@@ -114,6 +108,9 @@ OrderPostOpXray is an vent that is captures in javascript within the Visualforce
                     function(result, event){
                     ...... Handle the response and call-back in to Unity3D !
                     
+                    // callback a Unity3D exposed method
+                    engine.call("callbackMethod",
+                     			  String(result.Request_Post_Op_Xray__c)); 
                     },
                     {escape: true}
                 );
@@ -123,8 +120,8 @@ OrderPostOpXray is an vent that is captures in javascript within the Visualforce
     
         <div id="responseErrors"></div>
 	</apex:page>
-'''
 
+Finally, to make a method in Unity3D available for the VIsualforce page to call (e.g.
 
 ###Required Unity3D Add-ons
 **Playmaker** http://www.hutonggames.com/
