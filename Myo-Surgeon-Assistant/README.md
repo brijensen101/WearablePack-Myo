@@ -17,8 +17,8 @@ Unity3D Plugin
 Unity3D plugin declarative development in Unity3D.  In short is the best visual scripter plugin for Unity.  For more information goto - http://www.hutonggames.com/
 
 ##Step Three:
-Import Demo-specific Unity3D script
-Import to the Unity3D project the C# scripts for salesforce connectivity, coherentUI bindings (remote actions from unity3D), etc.  Links to these files can be found in the gethub project files.
+Import Demo-specific Unity3D script/package
+Import to the Unity3D project the C# scripts for salesforce connectivity, coherentUI bindings (remote actions from unity3D), etc.  Below is a link to a Unity Pachage that has all the scrips and setup to run the app.
 
 Download at - https://drive.google.com/file/d/0B6UL-FHBmg0AZ2RBMDlURUNqcnM/edit?usp=sharing
 
@@ -28,3 +28,5 @@ Set up all connected integration points such as WS APIs, Visualforce pages, and 
 
 ##Training the Myo:
 The Alpha version of the myo requires you train the device before it can be use.  Thalmic Labs, the maker of the Myo has provided a simple easy to follow app that the user will need to run every time the device is put on.  This app can be found in the “myo-mac-sdk-alpha6a” folder provided by Thalmic Laps.
+
+Download Myo SDK Alpha 6 zip at - https://drive.google.com/file/d/0B6UL-FHBmg0AZTNHN0lzSTBCN1E/edit?usp=sharing
