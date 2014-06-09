@@ -30,3 +30,6 @@ Import the Salesforce customizations included in the 'Salesforce' folder into yo
 The Alpha version of the myo requires you train the device before it can be use.  Thalmic Labs, the maker of the Myo has provided a simple easy to follow app that the user will need to run every time the device is put on.  This app can be found in the “myo-mac-sdk-alpha6a” folder provided by Thalmic Laps.
 
 Download Myo SDK Alpha 6 zip at - https://drive.google.com/file/d/0B6UL-FHBmg0AZTNHN0lzSTBCN1E/edit?usp=sharing
+
+##Behind the Secens Video
+http://youtu.be/IIwV3-PBBhg
