@@ -1,4 +1,4 @@
-#SETUP
+#APP SETUP
 
 ##Step 1 - Download App and SDK files
 - Desktop App - https://drive.google.com/file/d/0B6UL-FHBmg0AMjhXX3NjaDBLWWM/edit?usp=sharing 
