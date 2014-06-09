@@ -1,0 +1,101 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp-Editor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'Library/ScriptAssemblies/Assembly-UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iPhonePlayer/EditorExtensions/UnityEditor.iOS.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/BB10Player/EditorExtensions/UnityEditor.BB10.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/AndroidPlayer/EditorExtensions/UnityEditor.Android.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/4.3.4/Unity.PackageManager.dll'
+-r:'Assets/Plugins/CoherentUINet.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/PlayMakerEditorResources.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/PlayMakerEditor.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll'
+-r:'Assets/JMO Assets/Editor/JMOAssets.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll'
+-r:'Assets/Plugins/CoherentUIMobileNet.dll'
+-r:'Assets/Myo Samples/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll'
+-r:'Assets/Myo Samples/PlayMaker/PlayMaker.dll'
+-define:UNITY_STANDALONE_OSX
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_GAMECENTER
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_4
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_OSX
+'Assets/CoherentUI/Editor/CoherentUI/AndroidPostProcessor.cs'
+'Assets/CoherentUI/Editor/CoherentUI/CoherentExposeProperties.cs'
+'Assets/CoherentUI/Editor/CoherentUI/CoherentPostProcessor.cs'
+'Assets/CoherentUI/Editor/CoherentUI/CoherentSystemEditor.cs'
+'Assets/CoherentUI/Editor/CoherentUI/CoherentUIInstaller.cs'
+'Assets/CoherentUI/Editor/CoherentUI/CoherentUILiveGameViewEditor.cs'
+'Assets/CoherentUI/Editor/CoherentUI/CoherentViewEditor.cs'
+'Assets/CoherentUI/Editor/CoherentUI/IOSPostProcessor.cs'
+'Assets/CoherentUI/Editor/CoherentUI/MobileSurfaceViewEditor.cs'
+'Assets/CoherentUI/Samples/Scenes/Sample_MobileInput/Editor/AndroidProjectFixer.cs'
+'Assets/CoherentUI/Samples/Scenes/Sample_MobileInput/Editor/iOSSimulatorProjectFixer.cs'
+'Assets/Myo Samples/PlayMaker/Actions/Editor/LookAtActionEditor.cs'
+'Assets/Myo Samples/PlayMaker/Actions/Editor/MoveTowardsActionEditor.cs'
+'Assets/Myo Samples/PlayMaker/Actions/Editor/SetCameraFOVActionEditor.cs'
+'Assets/Myo Samples/PlayMaker/Editor/AboutWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/ContextToolWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmActionWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmComponentInspector.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmEditorHelpers.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmEditorWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmErrorWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmEventsWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmGlobalsWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmLogWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmSelectorWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmStateWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmTemplate.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmTemplateEditor.cs'
+'Assets/Myo Samples/PlayMaker/Editor/FsmTemplateWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/PlayMakerBugReportWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/PlayMakerCustomActionWizard.cs'
+'Assets/Myo Samples/PlayMaker/Editor/PlayMakerGUIInspector.cs'
+'Assets/Myo Samples/PlayMaker/Editor/PlayMakerGlobalsInspector.cs'
+'Assets/Myo Samples/PlayMaker/Editor/PlayMakerMainMenu.cs'
+'Assets/Myo Samples/PlayMaker/Editor/PlayMakerWelcomeWindow.cs'
+'Assets/Myo Samples/PlayMaker/Editor/ReportWindow.cs'
+'Assets/iTween/PlayMaker/Editor/iTweenMoveToActionEditor.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.Linq.dll'

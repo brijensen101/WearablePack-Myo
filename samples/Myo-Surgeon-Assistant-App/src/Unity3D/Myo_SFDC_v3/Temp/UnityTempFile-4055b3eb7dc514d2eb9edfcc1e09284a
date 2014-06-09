@@ -1,0 +1,59 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'Assets/Plugins/CoherentUINet.dll'
+-r:'Assets/Plugins/CoherentUIMobileNet.dll'
+-r:'Assets/Myo Samples/PlayMaker/PlayMaker.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-define:UNITY_STANDALONE_OSX
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_GAMECENTER
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_4
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_OSX
+'Assets/Standard Assets/Scripts/CoherentUI/CoherentUILiveGameView.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/CoherentUISystem.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/CoherentUIView.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/CoherentCameraLive.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/CoherentExposePropertyAttribute.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/CoherentMethodAttribute.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/CoherentUIDialog.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/CoherentUIViewRenderer.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/FileHandler.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/IMEHandler.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/InputManager.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/License.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/LogHandler.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/SystemListener.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/Detail/ViewListener.cs'
+'Assets/Standard Assets/Scripts/CoherentUI/MobileSurfaceView.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
