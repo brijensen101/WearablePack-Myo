@@ -10,7 +10,7 @@ There are three architectural componnets to the solution:
 
 -  **The Connected Device - Thalmic Labs' Myo** -  https://www.thalmic.com/en/myo/
 
-The Myo is a wearable device that is able to detect hand/spacial gestures, and uses a bluetooth connection to allow the wearer to control an application.  In this use case, the specific value for the surgeon is the touchless control, which preserves the clean environment needed for surgery.
+The Myo is a wearable device that is able to detect hand/spacial gestures, and uses a Bluetooth connection to allow the wearer to control an application.  In this use case, the specific value for the surgeon is the touchless control, which preserves the clean environment needed for surgery.
 
 - **The Connected App - Unity 3D**  http://unity3d.com/
 
