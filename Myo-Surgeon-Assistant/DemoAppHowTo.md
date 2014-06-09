@@ -1,8 +1,8 @@
 #SETUP
 
 ##Step 1 - Download App and SDK files
-Desktop App - https://drive.google.com/file/d/0B6UL-FHBmg0AMjhXX3NjaDBLWWM/edit?usp=sharing 
-Myo SDK Alpha 6 - https://drive.google.com/file/d/0B6UL-FHBmg0AZTNHN0lzSTBCN1E/edit?usp=sharing
+- Desktop App - https://drive.google.com/file/d/0B6UL-FHBmg0AMjhXX3NjaDBLWWM/edit?usp=sharing 
+- Myo SDK Alpha 6 - https://drive.google.com/file/d/0B6UL-FHBmg0AZTNHN0lzSTBCN1E/edit?usp=sharing
 
 ##Step 2 - Set up Demo SFDC org
 Login to the Demo org
