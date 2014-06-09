@@ -1,11 +1,11 @@
 #Getting Started
 
 ##Step One:
-Get a Myo device:
+###Get a Myo device:
 The myo is wearable electronic arm-band to detect gestures without line of sight. As of the date of the launch the Myo is offering a developer sign up to receive their SDK.  The current Alpha model (which was used for this project) requires a trainer app, and is included in the SDK.  The trainer app is used every time you put the device on.  For more information and ording information goto - https://www.thalmic.com/en/myo/
 
 ##Step Two:
-Install Unity3D Pro:
+###Install Unity3D Pro:
 Unity 3D is a gaming engine.  3D application development environment.  Myo exposes it’s SDK in this environment.  For more information about unity and downloading a trial goto - http://unity3d.com/unity/download
 
 - ###Step Two A - Install CoherentUI
