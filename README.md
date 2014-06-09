@@ -26,10 +26,10 @@ There is two-way communication between Myo and the Unity3D connected app as well
 ![Flow Chart](https://cloud.githubusercontent.com/assets/2077602/3217042/32ad59c0-efdb-11e3-8b08-d005d24ae079.png)
 
 
-- ** Myo to Unity3D integration **
+-  Myo to Unity3D integration 
 The Myo SDK includes a Unity Package that provides the connection between Unity3D and the Myo device.  Within this package are the components required to access the gyroscope and accelerometer as well as the five preset gestures.  This package is provided as part of the Myo Alpha 6 SDK.
 
-- ** Unity3D to Salesforce.com Integration **
+-  Unity3D to Salesforce.com Integration 
 This project illustrates three ways in which Salesforce.com and Unity3D can be integrated. Lets cover each one briefly:
 
    1. **Data Integration using the REST API and OAuth**
