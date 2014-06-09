@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>DoctorPractice</letterhead>
+    <name>Assessment Reminder</name>
+    <style>formalLetter</style>
+    <subject>Reminder to book your post-op oppoinment</subject>
+    <textOnly>Reminder: Book your post-op assessment &amp; checkup. Hello {!Contact.Salutation} {!Contact.Name},
+
+We hope that you&apos;re feeling well and recovering fast to get back in to an active life with your new knee.
+
+We&apos;ll be with you every step of the way.
+
+This is a friendly reminder to book your follow-up appointment, idally within a week of your surgery date, which was {!Case.Surgery_Date__c}.
+
+Thank you,
+
+The AdvancedMed team
+Phone: +1 88 109 222 343
+email: anemail@domain.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

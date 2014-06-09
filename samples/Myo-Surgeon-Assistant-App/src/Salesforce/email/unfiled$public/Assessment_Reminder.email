@@ -1,0 +1,14 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#99FFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<b>Reminder: Book your post-op assessment &amp; checkup.</b>]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#99FFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[Hello {!Contact.Salutation}&nbsp;{!Contact.Name},<div><br></div><div>We hope that you're feeling well and recovering fast to get back in to an active life with your new knee.&nbsp;</div><div><br></div><div>We'll be with you every step of the way.</div><div><br></div><div>This is a friendly reminder to book your follow-up appointment, idally within a week of your surgery date, which was&nbsp;{!Case.Surgery_Date__c}.</div><div><br></div><div>Thank you,</div><div><br></div><div>The AdvancedMed team</div>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#99FFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[Phone: +1 88 109 222 343<div>email: anemail@domain.com</div>]]></td>
+</tr>
+</table>

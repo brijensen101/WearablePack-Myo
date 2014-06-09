@@ -24,7 +24,7 @@ Download at - https://drive.google.com/file/d/0B6UL-FHBmg0AZ2RBMDlURUNqcnM/edit?
 
 ##Step Four
 Configure the Salesforce.com org.
-Review the "src/Salesforce/org customizations" folder for a set of customisations on the Case and Contact objects and associated Workflow Rules. You will also need to setup a COnnected App (also covered in the istruction within that folder).  Review developer.force.com.
+Import the Salesforce customizations included in the 'Salesforce' folder into your Org. You can use a tool like [Workbench](https://workbench.developerforce.com/login.php) to help with this import process.
 
 ##Training the Myo
 The Alpha version of the myo requires you train the device before it can be use.  Thalmic Labs, the maker of the Myo has provided a simple easy to follow app that the user will need to run every time the device is put on.  This app can be found in the “myo-mac-sdk-alpha6a” folder provided by Thalmic Laps.
