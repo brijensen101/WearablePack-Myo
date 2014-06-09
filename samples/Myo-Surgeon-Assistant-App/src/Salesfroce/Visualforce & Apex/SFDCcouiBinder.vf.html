@@ -1,0 +1,42 @@
+<apex:page controller="SFDCcouiBinderController" sidebar="false" showHeader="false" standardStylesheets="false" docType="html-5.0">
+    
+    <apex:includeScript value="{!$Resource.jQuery2}"  />  
+    <apex:includeScript value="{!$Resource.coherentUI}"  />
+
+    <script type="text/javascript">
+        j$ = jQuery.noConflict();
+        j$(document).ready(function() {
+            // Bind unity3d COUI events to a js functions
+			 engine.on('orderPostOpXray',orderPostOpXray);
+        });
+    
+        function orderPostOpXray(procedureID) {
+            // invoke apex remote method
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.SFDCcouiBinderController.orderPostOpXray}',
+                procedureID, 
+                function(result, event){
+                    if (event.status) {
+ 
+                        //invoking Unity3D method as a callback, passing a field form the returned case record
+                        // This demonstrates the ability to pass back structured data to Unity3D via the CoherentUI method
+                        // Various data type bindings are available, we'll use a string to illustrate
+                        engine.call("callbackMethod", String(result.Request_Post_Op_Xray__c)); 
+                    
+                    } else if (event.type === 'exception') {
+                        // Best practice is to callback in to Unity3D with relevant error codes for action.
+                        // We'll simply diplay an error message in the DOM, which can be inspected with the Coherent UI debugger.
+                        document.getElementById("responseErrors").innerHTML = event.message + "<br/>\n<pre>" + event.where + "</pre>";
+                    } else {
+                        document.getElementById("responseErrors").innerHTML = event.message;
+                    }
+                },
+                {escape: true}
+            );
+        }
+        
+     </script>
+    
+    <div id="responseErrors"></div>
+
+</apex:page>
