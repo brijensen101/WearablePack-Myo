@@ -121,9 +121,16 @@ OrderPostOpXray is an vent that is captures in javascript within the Visualforce
         <div id="responseErrors"></div>
 	</apex:page>
 
-Finally, to make a method in Unity3D available for the VIsualforce page to call (e.g.
+Finally, to make a method in Unity3D available for the VIsualforce page to call, simply decorate the method with the Coherent UI decoration as follows:
 
-###Required Unity3D Add-ons
-**Playmaker** http://www.hutonggames.com/
-This add-on is a visual scripter, providing a declarative development capability within Unity3D.  Playmaker provides the ability to quickly prototype and build your Unity scenes without the need to write extensive code.
+	// This simple annotation binds a javascript method to a unity3D method
+    [Coherent.UI.CoherentMethod("callbackMethod",false)] 
+    public void exampleCallbackMethodFromVF(string postOpXrayOrdered)
+	{
+		Debug.Log ("Post Op Xray Order Status = " + postOpXrayOrdered);
+    }
+    
+###Playmaker - Declarative development in Unity3D
+When implementing these integrations, it is possible to take advatage of a declarative development envrionment within Unity3D, which in turn makes use of the developed code above. We have used **Playmaker** in this project to achieve this declarative envionrment.
+http://www.hutonggames.com/
 
