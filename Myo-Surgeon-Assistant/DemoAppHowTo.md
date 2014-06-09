@@ -43,7 +43,7 @@ x-Ray Icon - twist in will open the YES and NO buttons and title quesiton for po
 ##Steps to App
 - Step 1. - Open the "Myo_Surgeon_Assistant"
 - Step 2. - Give the app about 10sec to load.  (you will know this has been completed when the thumb-nail xray images disappear)
- -Step 3. - Center the Myo and screen target by using the "Finger Spread" gesture.  (note that if you lose or become off center with the myo and your arm movement use the "Finger Spread" gesture to re-center)
+- Step 3. - Center the Myo and screen target by using the "Finger Spread" gesture.  (note that if you lose or become off center with the myo and your arm movement use the "Finger Spread" gesture to re-center)
 - Step 4. - Review x-Ray images
 - Step 5. - Order Post-Op x-Ray (from the x-Ray icon)
 - Step 6. - Chose a "time left" (from the stop watch icon)
