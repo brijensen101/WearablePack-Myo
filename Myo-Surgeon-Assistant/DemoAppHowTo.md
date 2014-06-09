@@ -24,11 +24,11 @@ Please Note - the light on the Myo will turn blue if connected.  If you do not g
 Once you have completed the steps above, below is how the app works:
 
 ##Gestures:
-- Fist - this will make the Myo Buzz.  While holding the Fist gesture, move your arm around to nav around the skeleton.  
-- Wave in - Rotates the skeleton to the left
-- Wave out - Rotates the skeleton to the right
-- Finger Spread - Resets the screen target and centers the myo to the screen
-- Twist In - This is your "mouse click". Placing the target over a hotspot and doing the "Twist In" gesture will be the click for at hotspot.
+- **Fist** - this will make the Myo Buzz.  While holding the Fist gesture, move your arm around to nav around the skeleton.  
+- **Wave in** - Rotates the skeleton to the left
+- **Wave out** - Rotates the skeleton to the right
+- **Finger Spread** - Resets the screen target and centers the myo to the screen
+- **Twist In** - This is your "mouse click". Placing the target over a hotspot and doing the "Twist In" gesture will be the click for at hotspot.
 
 ##Hotspots in the Scene:
 - Red Orb on Rt Knee on Skeleton - twist in to turn x-ray thumb nails on and off
