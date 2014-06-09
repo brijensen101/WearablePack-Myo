@@ -42,7 +42,7 @@ This project illustrates three ways in which Salesforce.com and Unity3D can be i
    Coherent UI also provides a two way communication between the embedded browser and the Unity3D scene via Javascript. This two-way binding between the loaded web page (visualforce) and the Coherent UI/Unity3D environment was used to invoke Visualforce  methods that make use of remote actions. E.g. Creating the Post-Op reminder.
 
 ## Integration deep dive
-The first example here is establishing a REST call (refer to the salesforce.cs file in the Unity3D folder uner src: src/Assets/scripts/salesforce.cs):
+The first example here is establishing a REST call (refer to src/Unity3D/assets/scripts/salesforce.cs):
 
       public void query(string q){
             string url = instanceUrl + "/services/data/" + version 
