@@ -13,7 +13,7 @@ public with sharing class ContactImagesExtension{
         get {
             if(photo == null){
                 try{
-                	this.photo = [SELECT Id, Name FROM Attachment WHERE ParentId = :patient.Id AND Name = 'ProfilePic' LIMIT 1][0];   
+                  this.photo = [SELECT Id, Name FROM Attachment WHERE ParentId = :patient.Id AND Name = 'ProfilePic' LIMIT 1][0];   
                 }
                 catch (Exception e){
                     // In a production system, a thorough exception handling shoud be applied here.
