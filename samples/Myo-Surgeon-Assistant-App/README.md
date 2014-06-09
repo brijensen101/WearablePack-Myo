@@ -32,4 +32,4 @@ The Alpha version of the myo requires you train the device before it can be use.
 Download Myo SDK Alpha 6 zip at - https://drive.google.com/file/d/0B6UL-FHBmg0AZTNHN0lzSTBCN1E/edit?usp=sharing
 
 ##Behind the Secens Video
-http://youtu.be/IIwV3-PBBhg
+<iframe width="960" height="720" src="//www.youtube.com/embed/IIwV3-PBBhg" frameborder="0" allowfullscreen></iframe>
