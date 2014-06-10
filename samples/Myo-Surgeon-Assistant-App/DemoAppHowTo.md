@@ -1,8 +1,8 @@
 #APP SETUP
 
-##Step 1 - Download App and SDK files
+##Step 1 - Download App and Sign up to be a Myo Developer
 - Desktop App - https://drive.google.com/file/d/0B6UL-FHBmg0AMjhXX3NjaDBLWWM/edit?usp=sharing 
-- Myo SDK Alpha 6 - https://drive.google.com/file/d/0B6UL-FHBmg0AZTNHN0lzSTBCN1E/edit?usp=sharing
+- Myo Developer UIL - https://developer.thalmic.com/apply/
 
 ##Step 2 - Set up Demo SFDC org
 - Login to the Demo org
