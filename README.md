@@ -1,4 +1,4 @@
-WearablePack-Myo
+Salesforce Wear Pack for Myo
 ================
 
 Salesforce and Thalmic Labs have come together to create a touchless surgery device. During surgery a Dr. will use a Myo controller and a Salesforce.com intergration to view images (X-Rays), order additonal post op X-rays, notifly the post op team about the end of surgery, and send notifications to others.
